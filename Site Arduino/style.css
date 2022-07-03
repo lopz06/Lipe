@@ -1,0 +1,161 @@
+/*Gerais*/
+body{
+    background-color: #77ff55;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+body img{
+    max-width: 100%;
+}
+
+p{
+    text-align: justify;
+}
+
+p.titulo{
+    font-weight: 700;
+    font-size: 2em;
+    text-transform:uppercase;
+    text-decoration: solid;
+    text-align: center;
+}
+
+
+
+/*Header*/
+.header{
+    background-color: #06c716;
+    margin-bottom: 40px;
+}
+
+.header a{
+    color: black;
+}
+
+.header a:hover{
+    color: #9e9e9e;
+}
+
+#apresentacao{
+    background-color: #1dd81d;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+#apresentacao img{
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.vejaMais button{
+    background-color: #32d112;
+    border-color: darkblue;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+#projBasico{
+    background-color: #3bca1e;
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+#projBasico iframe{
+    max-width: 100%;
+}
+
+#videos .active{
+    background-color: #0cd33d;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#videos{
+    background-color: #aaddff;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+#videosBox{
+    background-color: #146e3d;
+    padding: 40px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 30px;
+}
+
+#videosBox .videoUnique{
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+#videosBox iframe{
+    max-width: 100%;
+}
+
+
+#meuProgresso{
+    background-color: #4488ff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#tinkercad{
+    background-color: #aaddff;
+    padding: 40px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+
+#tinkercadBox{
+    text-align: center;
+}
+
+#tinkercad .active{
+    background-color: #ccffff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#tinkercad{
+    background-color: #aaddff;
+    padding: 40px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+#tinkercadBox{
+    background-color: #ccffff;
+    padding: 40px;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 30px;
+}
+
+#tinkercadBox iframe{
+    max-width: 100%;
+}
+
+.footer{
+    background-color: #77aacc;
+    padding: 10px;
+    text-align: center;
+}
+
+@media screen and (max-width: 448px) {
+    .titulo{
+        font-size: 1.2em;
+        text-align: center;
+    }
+}

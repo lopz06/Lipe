@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Arduino</title>
+</head>
+<body>
+    <header class="header">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#apresentacao">Apresentação</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#videos">Video aulas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tinkercad">Projetos</a>
+            </li>
+          </ul>
+    </header>
+
+    <main class="main">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-6">
+              <div id="apresentacao">
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-md-8">
+                    <div class="sobre">
+                      <p class="titulo">O que é o Arduino?</p>
+                      O arduino é uma placa microcontroladora criada em 2005 com o objetivo de ser uma placa barata e funcional, para que tanto estudantes quanto projetistas amadores possam usufruir da sua capacidade. Atualmente no mercado, existem várias variações, com diversoso focos, sendo a mais utilizada a Arduino Uno. Seu valor pode variar de R$80,00 a R$120,00.
+                    </div>
+                  </div>
+                  <div class="col-12 col-sm-6 col-md-4">
+                    <img src="imagens/arduinoUno.jpeg" alt="Arduino Uno">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <a class="vejaMais" href="https://www.arduino.cc/" target="_blank">
+                      <button>Clique aqui para saber mais</button>
+                    </a>
+                  </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-12 col-md-6">
+              <div id="projBasico">
+                <p class="titulo">Mão na massa!</p>
+                <p>Um projeto rápido sobre um pisca-LED</p>
+                <iframe width="560" height="350" src="https://www.tinkercad.com/embed/4cVtJ9Ubizg?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+              </div>
+            </div>
+          </div>
+            
+
+            <div id="videos">
+              <p class="titulo">
+                Aprenda agora
+              </p>
+              <p>A seguir, algumas recomendações de vídeos práticos e fáceis para conseguir saber o basico da programação do arduino</p>
+              <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a id="vdIntro" class="nav-link ">Introdução</a>
+                </li>
+                <li class="nav-item">
+                  <a id="vdBas" class="nav-link">Básico</a>
+                </li>
+                <li class="nav-item">
+                  <a id="vdInter" class="nav-link">Intermediário</a>
+                </li>
+              </ul>
+              <div id="videosBox">
+
+                <div class="videoUnique">
+                  <p class="titulo" style="font-size: 1.5em;">O que é o Arduino?</p>
+                  
+                  
+                  <iframe width="727" height="409" src="https://www.youtube.com/embed/sv9dDtYnE1g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              
+              <hr>
+      
+              <div class="videoUnique">
+                  <p class="titulo" style="font-size: 1.5em;">O que fazer no começo</p>
+                  <iframe width="727" height="409" src="https://www.youtube.com/embed/fKtrhH_yOpg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+      
+              <hr>
+      
+              <div class="videoUnique">
+                  <p class="titulo" style="font-size: 1.5em;">Apenas a linguagem alfanumérica?</p>
+                  <iframe width="727" height="409" src="https://www.youtube.com/embed/Niox3OgBIjs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+
+              </div>
+
+              <div id="meuProgresso" style="text-align:left">
+                <p><strong>Videos vistos:</strong></p>
+                <p>
+                  Nível Introdução: <label for="intro1"> Video 1 </label><input type="checkbox" id="intro1">
+                  <label for="intro2"> Video 2 </label><input type="checkbox" id="intro2">
+                  <label for="intro3"> Video 3 </label><input type="checkbox" id="intro3">
+                </p>
+
+                <p>
+                  Nível Básico: <label for="bas1"> Video 1 </label><input type="checkbox" id="bas1">
+                  <label for="bas2"> Video 2 </label><input type="checkbox" id="bas2">
+                  <label for="bas3"> Video 3 </label><input type="checkbox" id="bas3">
+                </p>
+
+                <p>
+                  Nível Intermediário: <label for="inter1"> Video 1 </label><input type="checkbox" id="inter1">
+                  <label for="inter2"> Video 2 </label><input type="checkbox" id="inter2">
+                  <label for="inter3"> Video 3 </label><input type="checkbox" id="inter3">
+                </p>
+                <p><strong>Seu progresso:</strong></p>
+                <div class="progress">
+                  <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+                </div>
+              </div>
+
+            </div>
+
+            <div id="tinkercad">
+              <p class="titulo">
+                tinkercad
+              </p>
+              <p>O que é o Tinkercad, caso não tenha disponibilidade para conseguir um Arduino, pode optar pelo simulador Tinkercad, onde pode montar seu próprio circuito e programar um ou mais arduinos por programação alfanumérica ou em blocos.</p>
+              
+              <ul class="nav nav-tabs">
+                <li class="nav-item">
+                  <a class="nav-link">Projeto 1</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Projeto 2</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link">Projeto 3</a>
+                </li>
+              </ul>
+
+              <div id="tinkercadBox">
+                <p class="titulo">Leitor de temperatura e Luminosidade de Estufa</p>
+                <iframe width="560" height="350" src="https://www.tinkercad.com/embed/iSmxCaWdPlA?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+              </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="footer">
+      @Copyright 2022 - Disciplina de Laboratorio de Iniciação à Programação - ICEI PUC MINAS
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
